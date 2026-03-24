@@ -7,7 +7,10 @@ I set mine up to trigger on workstation unlock and call 'winget_oncePerDay_invis
 - Triggers    
 > Begin the task: On workstation unlock, Enabled  
 - Actions  
-> Action: Start a program, Program/script: wscript.exe, Add arguments: winget_oncePerDay_invis.vbs, Start in: PATH_TO_'winget_oncePerDay_invis.vbs'  
+> Action: Start a program,
+> Program/script: wscript.exe,
+> Add arguments: winget_oncePerDay_invis.vbs,
+> Start in: PATH_TO_'winget_oncePerDay_invis.vbs'  
 
 - Run winget upgrade silently by calling 'winget_oncePerDay_invis.vbs'.  
 - Calling 'winget_oncePerDay_invis.vbs' then silently calls 'winget_oncePerDay.ps1'.  
