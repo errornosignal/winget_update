@@ -10,7 +10,7 @@ I set my Scheduled Task to trigger on workstation unlock and call 'winget_oncePe
 > Action: _Start a program_    
 > Program/script: _wscript.exe_  
 > Add arguments: _winget_oncePerDay_invis.vbs_  
-> Start in: _PATH_TO_'winget_oncePerDay_invis.vbs'_  
+> Start in: _PATH_TO__'winget_oncePerDay_invis.vbs'_  
 
 <ins>How it works:</ins>  
 - Run winget upgrade silently by calling 'winget_oncePerDay_invis.vbs'.  
