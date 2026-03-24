@@ -2,11 +2,11 @@ This was created to accomodate running a scheduled task in Windows Task Schedule
 I set mine up to trigger on workstation unlock and call 'winget_oncePerDay_invis.vbs' once per day using wscript.exe.  
 
 **Scheduled Task Details**  
-- General     
+- General
 > Run only when user is logged on, Run with highest priviledges  
-- Triggers    
+- Triggers
 > Begin the task: On workstation unlock, Enabled  
-- Actions  
+- Actions
 > Action: Start a program,  
 > Program/script: wscript.exe,  
 > Add arguments: winget_oncePerDay_invis.vbs,  
