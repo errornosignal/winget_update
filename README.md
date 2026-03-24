@@ -18,4 +18,4 @@
 > Action: _Start a program_    
 > Program/script: _wscript.exe_  
 > Add arguments: _winget_oncePerDay_invis.vbs_  
-> Start in: _PATH_TO__'winget_oncePerDay_invis.vbs'_  
+> Start in: _PATH_TO_ _'winget_oncePerDay_invis.vbs'_  
