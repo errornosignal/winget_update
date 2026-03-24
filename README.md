@@ -1,6 +1,7 @@
 This was created to accomodate running winget upgrade as a scheduled task in Windows Task Scheduler with little to no user intervention required.  
 I set my Scheduled Task to trigger on workstation unlock and call 'winget_oncePerDay_invis.vbs' once per day using wscript.exe.  
 
+
 <ins>Scheduled Task Details:</ins>  
 - General
 > Run only when user is logged on, Run with highest priviledges  
@@ -11,6 +12,7 @@ I set my Scheduled Task to trigger on workstation unlock and call 'winget_oncePe
 > Program/script: _wscript.exe_  
 > Add arguments: _winget_oncePerDay_invis.vbs_  
 > Start in: _PATH_TO__'winget_oncePerDay_invis.vbs'_  
+
 
 <ins>How it works:</ins>  
 - Run winget upgrade silently by calling 'winget_oncePerDay_invis.vbs'.  
