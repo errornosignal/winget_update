@@ -1,5 +1,5 @@
-This was created to accomodate running a scheduled task in Windows Task Scheduler with little to no user intervention required.  
-I set mine up to trigger on workstation unlock and call 'winget_oncePerDay_invis.vbs' once per day using wscript.exe.  
+This was created to accomodate running winget upgrade as a scheduled task in Windows Task Scheduler with little to no user intervention required.  
+I set my Scheduled Task to trigger on workstation unlock and call 'winget_oncePerDay_invis.vbs' once per day using wscript.exe.  
 
 **Scheduled Task Details**  
 - General
