@@ -5,12 +5,12 @@ I set my Scheduled Task to trigger on workstation unlock and call 'winget_oncePe
 - General
 > Run only when user is logged on, Run with highest priviledges  
 - Triggers
-> Begin the task: On workstation unlock, Enabled  
+> Begin the task: _ _On workstation unlock, Enabled_ _  
 - Actions
-> Action: Start a program,  
-> Program/script: wscript.exe,  
-> Add arguments: winget_oncePerDay_invis.vbs,  
-> Start in: PATH_TO_'winget_oncePerDay_invis.vbs'  
+> Action: _ _Start a program_ _    
+> Program/script: _ _wscript.exe_ _  
+> Add arguments: _ _winget_oncePerDay_invis.vbs_ _  
+> Start in: _ _PATH_TO_'winget_oncePerDay_invis.vbs'_ _  
 
 <ins>How it works:</ins>  
 - Run winget upgrade silently by calling 'winget_oncePerDay_invis.vbs'.  
