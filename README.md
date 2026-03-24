@@ -13,9 +13,9 @@
 - General
 > Run only when user is logged on, Run with highest priviledges  
 - Triggers
-> **Begin the task:** On workstation unlock, Enabled  
+> Begin the task: On workstation unlock, Enabled  
 - Actions
-> **Action:** Start a program    
-> **Program/script:** wscript.exe  
-> **Add arguments:** winget_oncePerDay_invis.vbs  
-> **Start in:** PATH_TO_'winget_oncePerDay_invis.vbs'  
+> Action: Start a program    
+> Program/script: wscript.exe  
+> Add arguments: winget_oncePerDay_invis.vbs  
+> Start in: PATH_TO_'winget_oncePerDay_invis.vbs'  
